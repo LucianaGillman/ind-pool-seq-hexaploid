@@ -1,0 +1,386 @@
+/3.1
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	32
+)
+
+(Legend.2
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	3
+	Symbols:	4
+	Class:	47
+	Class:	48
+	Class:	49
+	Class:	50
+	Class:	51
+	Class:	52
+	Class:	53
+	Class:	54
+	Class:	55
+	Class:	56
+	StdDevs:	1.00000000000000
+	NullSym:	57
+	NullValues:	61
+	StatValues:	62
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Eco_region"
+)
+
+(SymList.4
+	Child:	5
+	Child:	9
+	Child:	13
+	Child:	17
+	Child:	21
+	Child:	25
+	Child:	29
+	Child:	33
+	Child:	38
+	Child:	43
+)
+
+(BShSym.5
+	Color:	6
+	OutlineColor:	7
+	OutlineWidth:	0.10000000000000
+	BgColor:	8
+)
+
+(TClr.6
+	Red:	0xfdff
+	Green:	0xba8f
+	Blue:	0xb395
+)
+
+(TClr.7
+)
+
+(TClr.8
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.9
+	Color:	10
+	OutlineColor:	11
+	OutlineWidth:	0.10000000000000
+	BgColor:	12
+)
+
+(TClr.10
+	Red:	0xa91f
+	Green:	0xd1ff
+	Blue:	0x72d7
+)
+
+(TClr.11
+)
+
+(TClr.12
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.13
+	Color:	14
+	OutlineColor:	15
+	OutlineWidth:	0.10000000000000
+	BgColor:	16
+)
+
+(TClr.14
+	Red:	0xa4ff
+	Green:	0x6e97
+	Blue:	0x46e5
+)
+
+(TClr.15
+)
+
+(TClr.16
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.17
+	Color:	18
+	OutlineColor:	19
+	OutlineWidth:	0.10000000000000
+	BgColor:	20
+)
+
+(TClr.18
+	Red:	0xb000
+	Green:	0xb000
+	Blue:	0xb000
+)
+
+(TClr.19
+)
+
+(TClr.20
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.21
+	Color:	22
+	OutlineColor:	23
+	OutlineWidth:	0.10000000000000
+	BgColor:	24
+)
+
+(TClr.22
+	Red:	0xfdff
+	Green:	0x89a5
+	Blue:	0x613b
+)
+
+(TClr.23
+)
+
+(TClr.24
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.25
+	Color:	26
+	OutlineColor:	27
+	OutlineWidth:	0.10000000000000
+	BgColor:	28
+)
+
+(TClr.26
+	Red:	0x38d1
+	Green:	0x8aff
+	Blue:	0x2d10
+)
+
+(TClr.27
+)
+
+(TClr.28
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.29
+	Color:	30
+	OutlineColor:	31
+	OutlineWidth:	0.10000000000000
+	BgColor:	32
+)
+
+(TClr.30
+	Red:	0x91ff
+	Green:	0x2511
+	Blue:	0x2f54
+)
+
+(TClr.31
+)
+
+(TClr.32
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.33
+	Color:	34
+	OutlineColor:	35
+	OutlineWidth:	0.10000000000000
+	BgColor:	36
+	Style:	0x01
+	Stipple:	37
+)
+
+(TClr.34
+	Red:	0xb413
+	Green:	0x585c
+	Blue:	0xc491
+)
+
+(TClr.35
+)
+
+(TClr.36
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.37
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(BShSym.38
+	Color:	39
+	OutlineColor:	40
+	OutlineWidth:	0.10000000000000
+	BgColor:	41
+	Style:	0x01
+	Stipple:	42
+)
+
+(TClr.39
+	Red:	0xdd36
+	Green:	0xcdba
+	Blue:	0x670d
+)
+
+(TClr.40
+)
+
+(TClr.41
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.42
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(BShSym.43
+	Color:	44
+	Outline:	1
+	OutlineColor:	45
+	OutlineWidth:	0.10000000000000
+	BgColor:	46
+)
+
+(TClr.44
+	Name:	"Transparent"
+)
+
+(TClr.45
+	Name:	"Transparent"
+)
+
+(TClr.46
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.47
+	IsText:	1
+	Label:	"Cuenca sedimentaria del Oeste"
+	MinStr:	"Cuenca sedimentaria del Oeste"
+	MaxStr:	"Cuenca sedimentaria del Oeste"
+	Precision:	-3
+)
+
+(LClass.48
+	IsText:	1
+	Label:	"Cuenca sedimentaria Gondwánica"
+	MinStr:	"Cuenca sedimentaria Gondwánica"
+	MaxStr:	"Cuenca sedimentaria Gondwánica"
+	Precision:	-3
+)
+
+(LClass.49
+	IsText:	1
+	Label:	"Cuesta Basáltica"
+	MinStr:	"Cuesta Basáltica"
+	MaxStr:	"Cuesta Basáltica"
+	Precision:	-3
+)
+
+(LClass.50
+	IsText:	1
+	Label:	"Escudo Cristalino"
+	MinStr:	"Escudo Cristalino"
+	MaxStr:	"Escudo Cristalino"
+	Precision:	-3
+)
+
+(LClass.51
+	IsText:	1
+	Label:	"Graven de la Laguna Merín"
+	MinStr:	"Graven de la Laguna Merín"
+	MaxStr:	"Graven de la Laguna Merín"
+	Precision:	-3
+)
+
+(LClass.52
+	IsText:	1
+	Label:	"Graven del Santa Lucía"
+	MinStr:	"Graven del Santa Lucía"
+	MaxStr:	"Graven del Santa Lucía"
+	Precision:	-3
+)
+
+(LClass.53
+	IsText:	1
+	Label:	"Sierras del Este"
+	MinStr:	"Sierras del Este"
+	MaxStr:	"Sierras del Este"
+	Precision:	-3
+)
+
+(LClass.54
+	IsText:	1
+	Label:	"Cartografía de Eco-regiones. "
+	Precision:	-3
+)
+
+(LClass.55
+	IsText:	1
+	Label:	"Autores: D. Panario, O. Gutiérrez, A. Brazeiro  (2011)"
+	Precision:	-3
+)
+
+(LClass.56
+	IsNoData:	1
+	IsText:	1
+	Label:	"Sin datos"
+	Precision:	-3
+)
+
+(BShSym.57
+	Color:	58
+	Outline:	1
+	OutlineColor:	59
+	OutlineWidth:	0.10000000000000
+	BgColor:	60
+)
+
+(TClr.58
+	Name:	"Transparent"
+)
+
+(TClr.59
+	Name:	"Transparent"
+)
+
+(TClr.60
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.61
+)
+
+(NameDict.62
+)
+
