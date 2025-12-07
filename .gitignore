@@ -1,0 +1,22 @@
+# Output files from transformation scripts
+metadata_with_binary_ecoregions.csv
+population_ecoregion_summary.csv
+sample_distribution_by_population.png
+sample_distribution_by_ecoregion.png
+
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
