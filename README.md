@@ -23,7 +23,7 @@ These scripts demonstrate the complete workflow:
 
 Two equivalent scripts are provided:
 
-#### Python Version (Recommended - Tested)
+#### Python Version
 **File:** `environmental_variable_transformation.py`
 
 Required packages:
