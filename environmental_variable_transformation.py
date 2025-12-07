@@ -68,10 +68,12 @@ print("\n=== Creating Binary Variables ===")
 # Create binary columns for each eco-region
 for region in unique_ecoregions:
     # Create column name (clean special characters)
-    col_name = region.replace(" ", "_")
-    col_name = col_name.replace("á", "a").replace("é", "e").replace("í", "i")
-    col_name = col_name.replace("ó", "o").replace("ú", "u")
-    col_name = f"eco_{col_name}"
+    # Use str.translate for efficient character replacement
+    char_map = str.maketrans({
+        ' ': '_',
+        'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'
+    })
+    col_name = f"eco_{region.translate(char_map)}"
     
     # Create binary variable: 1 if sample is in this eco-region, 0 otherwise
     metadata_df[col_name] = (metadata_df['ECO_REGION'] == region).astype(int)

@@ -4,11 +4,9 @@ This repository contains all scripts used for the paper "Optimizing Genomic Dive
 
 ### How to Transform Environmental Variables to Binary (0/1) Categories
 
-The repository includes eco-region spatial data (`eco-regiones_27-4-2012/`) and sample coordinates (`metadata.csv`). To transform environmental variables (eco-regions) into binary categories, use the script:
+The repository includes eco-region spatial data (`eco-regiones_27-4-2012/`) and sample coordinates (`metadata.csv`). To transform environmental variables (eco-regions) into binary categories, two equivalent scripts are provided (Python and R versions).
 
-**`environmental_variable_transformation.R`**
-
-This script demonstrates the complete workflow:
+These scripts demonstrate the complete workflow:
 
 1. **Spatial Overlay**: Uses the sample coordinates (latitude/longitude) to determine which eco-region each sample belongs to by performing a spatial join with the eco-region shapefile.
 
