@@ -68,7 +68,9 @@ print("\n=== Creating Binary Variables ===")
 # Create binary columns for each eco-region
 for region in unique_ecoregions:
     # Create column name (clean special characters)
-    col_name = region.replace(" ", "_").replace("á", "a").replace("é", "e")
+    col_name = region.replace(" ", "_")
+    col_name = col_name.replace("á", "a").replace("é", "e").replace("í", "i")
+    col_name = col_name.replace("ó", "o").replace("ú", "u")
     col_name = f"eco_{col_name}"
     
     # Create binary variable: 1 if sample is in this eco-region, 0 otherwise

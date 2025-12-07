@@ -57,7 +57,11 @@ unique_ecoregions <- unique(eco_regions$ECO_REGION)
 for (region in unique_ecoregions) {
   # Create column name (clean special characters)
   col_name <- gsub(" ", "_", region)
-  col_name <- gsub("[áéíóú]", "a", col_name)
+  col_name <- gsub("á", "a", col_name)
+  col_name <- gsub("é", "e", col_name)
+  col_name <- gsub("í", "i", col_name)
+  col_name <- gsub("ó", "o", col_name)
+  col_name <- gsub("ú", "u", col_name)
   col_name <- paste0("eco_", col_name)
   
   # Create binary variable: 1 if sample is in this eco-region, 0 otherwise
