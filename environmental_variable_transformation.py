@@ -113,7 +113,7 @@ eco_columns = [col for col in metadata_df.columns if col.startswith('eco_')]
 # Calculate the proportion of samples in each eco-region per population
 pop_summary = metadata_df.groupby('pop').agg({
     'id': 'count',  # Number of samples
-    'ECO_REGION': lambda x: x.mode()[0] if len(x.mode()) > 0 else None,  # Most common
+    'ECO_REGION': lambda x: x.mode().iloc[0] if not x.mode().empty else None,  # Most common
     **{col: 'mean' for col in eco_columns},  # Proportion in each eco-region
     'coastal': 'mean',
     'sedimentary_basin': 'mean',
