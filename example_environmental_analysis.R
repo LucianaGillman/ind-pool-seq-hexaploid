@@ -8,7 +8,7 @@
 # Prerequisites:
 #   - metadata.csv must exist in the current directory
 #   - environmental_variable_transformation.R must be in the current directory
-#   - R packages: dplyr, tidyr
+#   - R packages: dplyr
 
 # Source the transformation functions
 source("environmental_variable_transformation.R")

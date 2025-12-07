@@ -15,7 +15,6 @@
 
 # Load required libraries
 library(dplyr)
-library(tidyr)
 
 # Function to perform median-split binary transformation
 # This is the most common method used in environmental adaptation studies
