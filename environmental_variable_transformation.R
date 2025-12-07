@@ -71,7 +71,10 @@ quartile_transform <- function(variable, na_value = NA) {
 # Values above mean (z > 0) = 1, below mean (z <= 0) = 0
 zscore_transform <- function(variable, na_value = NA) {
   # Calculate z-scores
+  # Note: scale() returns a matrix with one column; we convert to vector
+  # for compatibility with ifelse()
   z <- scale(variable, center = TRUE, scale = TRUE)
+  z <- as.vector(z)  # Convert matrix to vector
   
   # Transform based on z-score
   binary <- ifelse(is.na(variable), na_value,

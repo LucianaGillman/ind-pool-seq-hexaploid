@@ -4,6 +4,11 @@
 # This script demonstrates how to apply environmental variable transformation
 # methodology to the Bromus auleticus dataset, following the approach used in
 # studies like the Drosophila melanogaster environmental adaptation paper.
+#
+# Prerequisites:
+#   - metadata.csv must exist in the current directory
+#   - environmental_variable_transformation.R must be in the current directory
+#   - R packages: dplyr, tidyr
 
 # Source the transformation functions
 source("environmental_variable_transformation.R")
@@ -11,8 +16,12 @@ source("environmental_variable_transformation.R")
 # Load required libraries
 library(dplyr)
 
-# Load metadata
+# Load metadata with error checking
 cat("Loading metadata...\n")
+if (!file.exists("metadata.csv")) {
+  stop("Error: metadata.csv not found in current directory.\n",
+       "Please ensure the file exists before running this script.")
+}
 metadata <- read.csv("metadata.csv", stringsAsFactors = FALSE)
 
 # Display basic information

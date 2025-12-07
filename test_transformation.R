@@ -1,5 +1,25 @@
 #!/usr/bin/env Rscript
-# Simple test of transformation functions without external dependencies
+# Test Script for Environmental Variable Transformation
+#
+# Purpose:
+#   This script validates the core functionality of environmental variable
+#   transformation methods (median-split and threshold-based) without requiring
+#   external packages. It tests the transformation logic, handling of missing
+#   values, and correct binary encoding.
+#
+# Expected Output:
+#   - Test 1: Demonstrates median-split transformation creating balanced groups
+#   - Test 2: Shows threshold-based transformation with custom cutoff
+#   - Test 3: Validates proper handling of missing (NA) values
+#
+# Relationship to Main Functions:
+#   This test replicates the core logic implemented in 
+#   environmental_variable_transformation.R using base R functions only.
+#   It serves as a lightweight validation that the transformation methodology
+#   works correctly before applying the full-featured functions to real data.
+#
+# Usage:
+#   Rscript test_transformation.R
 
 cat("Testing Environmental Variable Transformation Functions\n")
 cat("========================================================\n\n")
